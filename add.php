@@ -1,6 +1,7 @@
 <?php
 
-$email = $name = $surname = $title = $ingredients = '';
+$email = $name = $surname = $title = $ingredients = ''; 
+
 $errors = array('email'=>'', 'name'=>'', 'surname'=>'', 'title'=>'', 'ingredients'=>'');
 
 if(isset($_POST['submit'])){
@@ -12,7 +13,7 @@ if(isset($_POST['submit'])){
 
     // check email
     if(empty($_POST['email'])) {
-        $errors['email'] = "An email is required <br/>";
+        $errors['email'] = "An email is required";
     } else {
         $email = $_POST['email'];
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)) { 

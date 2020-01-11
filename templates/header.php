@@ -9,7 +9,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
-  <a class="navbar-brand" href="#">Recipes</a>
+  <a class="navbar-brand" href="index.php">Recipes</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,7 +19,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn btn-success btn-sm" href="#">Add a Recipe</a>
+        <a class="nav-link" href="add.php">Add a Recipe</a>
       </li>
       
     </ul>
